@@ -153,47 +153,6 @@ const Contact = () => {
           margin: '0 auto',
           position: 'relative'
         }}>
-          
-          {/* Date & Place Container */}
-          <div style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '30px',
-            marginBottom: '40px',
-            flexWrap: 'wrap'
-          }}>
-            {/* Date Box */}
-            <div style={{
-              background: 'rgba(15, 23, 42, 0.6)',
-              border: '1px solid rgba(14, 165, 233, 0.2)',
-              borderRadius: '16px',
-              padding: '12px 30px',
-              textAlign: 'center',
-              minWidth: '160px'
-            }}>
-              <div style={{ fontSize: '11px', color: '#0ea5e9', fontWeight: '700', letterSpacing: '1px', marginBottom: '4px', textTransform: 'uppercase' }}>Date</div>
-              <div style={{ fontSize: '16px', fontWeight: '700', color: 'white' }}>20-12-2025</div>
-            </div>
-
-            {/* Place Box */}
-            <div style={{
-              background: 'rgba(15, 23, 42, 0.6)',
-              border: '1px solid rgba(139, 92, 246, 0.2)',
-              borderRadius: '16px',
-              padding: '12px 30px',
-              textAlign: 'center',
-              minWidth: '160px'
-            }}>
-              <div style={{ fontSize: '11px', color: '#8b5cf6', fontWeight: '700', letterSpacing: '1px', marginBottom: '4px', textTransform: 'uppercase' }}>Place</div>
-              <div style={{ fontSize: '16px', fontWeight: '700', color: 'white' }}>Thanjavur</div>
-            </div>
-          </div>
-
-          {/* "Yours Sincerely" */}
-          <div style={{ textAlign: 'center', marginBottom: '25px' }}>
-            <p style={{ fontStyle: 'italic', color: '#94a3b8', fontSize: '16px' }}>Yours Sincerely,</p>
-          </div>
-
           {/* Name and Badge Row (The Fix) */}
           <div className="signature-row" style={{
             display: 'flex',

@@ -85,26 +85,7 @@ const Hero = () => {
 
         {/* --- LEFT COLUMN: TEXT --- */}
         <div style={{ paddingTop: '20px' }}>
-          
-          {/* Badge */}
-          <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            padding: '8px 20px',
-            background: 'rgba(255, 255, 255, 0.1)',
-            border: '1px solid rgba(255, 255, 255, 0.2)',
-            borderRadius: '50px',
-            marginBottom: '30px',
-            backdropFilter: 'blur(10px)',
-            boxShadow: '0 4px 15px rgba(0,0,0,0.1)',
-            animation: 'fadeIn 0.8s ease-out'
-          }}>
-            <span style={{ fontSize: '18px', marginRight: '10px' }}>✨</span>
-            <span style={{ fontSize: '14px', fontWeight: '600', letterSpacing: '0.5px' }}>
-              OPEN TO WORK
-            </span>
-          </div>
-
+        
           {/* Name with Gradient Text */}
           <h1 style={{ 
             fontSize: 'clamp(45px, 5vw, 75px)', // Responsive font size
@@ -281,29 +262,6 @@ const Hero = () => {
               gap: '8px'
             }}>
               <span>📊</span> Accounting
-            </div>
-
-            <div style={{
-              position: 'absolute',
-              bottom: '15%',
-              left: '-30px',
-              background: 'rgba(30, 30, 40, 0.9)',
-              color: 'white',
-              padding: '15px',
-              borderRadius: '20px',
-              border: '1px solid rgba(255,255,255,0.1)',
-              backdropFilter: 'blur(10px)',
-              transform: 'translateZ(40px)',
-              boxShadow: '0 10px 20px rgba(0,0,0,0.3)',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '12px'
-            }}>
-               <div style={{ 
-                 width: '10px', height: '10px', background: '#4ade80', borderRadius: '50%',
-                 boxShadow: '0 0 10px #4ade80' 
-               }} />
-               <div style={{ fontSize: '12px', fontWeight: '500' }}>Active & Ready</div>
             </div>
 
           </div>
